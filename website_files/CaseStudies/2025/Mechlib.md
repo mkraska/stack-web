@@ -150,9 +150,19 @@ For each of the two functions, there is an interactive tryout test, where you ca
 Also there are test suits, showing the feedback generated for pre-defined test cases. Note that the functions are language-sensitive (currently, German and English are implemented) and obey the decimal separator setting in the question option. 
 
 
-### 
+### Current State and future plans
 
-Starting in 2020, the Meclib concept has been presented at JSXGraph and STACK user meetings. 
+Starting in 2020, the Meclib concept has been presented at JSXGraph and STACK user meetings. In 2023 and 2024 introductory workshops have been given at the user meetings. Meanwhile it is used throughout the courses of Engineering Mechanics at Brandenburg University of Applied Sciences in more than 200 STACK questions.
+
+In 2024, an advanced Meclib workshop has been given at the Hochschule Ruhr West (University of Applied Sciences) in Mühlheim/Ruhr (contact: Jonas Lache).
+
+At Hochschule Bochum (University of Applied Sciences), numerous STACK questions with static randomized Meclib images have been created for various courses  of Engineering Mechanic (contact: Mirko Siegert, Ulrich Zwiers).
+
+The Meclib concept has been successfully ported to STACK under Onyx (Saxony's learning management system). [Demo site](https://bildungsportal.sachsen.de/onyx/test?)
+
+Meclib will be part of the efforts to extend the application of STACK to subjects beyond mathematics. An important activity is the project "Deutsches Zentrum für digitale Aufgaben" (German center for digital exercises) coorcdinated by the OTH Amberg-Weiden (University of Applied Sciences).
+
+
 
 
 ## Reference
