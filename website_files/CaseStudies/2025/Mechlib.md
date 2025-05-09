@@ -18,26 +18,27 @@ Meclib is a set of tools to simplify authoring of STACK questions with a focus o
 - JSXGraph based static and interactive illustrations controlled by Maxima lists (defined in the question variables)
 - Maxima functions for rich formative feedback on interactive graphic input and on numeric or symbolic expressions.
 
+These tools are referenced in STACK questions via include functions in the question variables and in the question text, such that 
+
 The set of objects is created with sketches of mechanical systems in mind (support and load symbols, bars, ropes, disks, annotations). The most advanced application is the interactive creation of free body diagrams with rich formative feedback.
 
 ![image](https://github.com/user-attachments/assets/3cff9ae6-a800-43ee-90fe-23f46d97c906)
+
 
 
 The primary website of the project is on Github. A good entry point is the [Wiki](https://github.com/mkraska/meclib/wiki).
 
 There is a demo Moodle site, where Meclib examples can be tested. It is hosted at Brandenburg University of Applied Sciences (Technische Hochschule Brandenburg, THB).
 
-[External Moodle Course](https://extmoodle.th-brandenburg.de/course/view.php?id=138)
+[Meclib Demo Moodle Course](https://extmoodle.th-brandenburg.de/course/view.php?id=138)
 
-- You can create an account on the server or use the guest login
-- You need an account to actually access the demo questions, the other contents (slides, papers) can be accessed with guest login.
-- No course password required.
+
 
 
 
 ### Getting started
 
-The author of Meclib has developed two introductory workshop formats. They are documented in the Meclib wiki. With basic experience in authoring STACK questions, these workshops can be worked through without assistance. Guided workshops can be booked (kraska@th-brandenburg.de). 
+There are two standard workshops/tutorials. With basic experience in authoring STACK questions, these workshops can be worked through without assistance. Guided workshops can be booked (kraska@th-brandenburg.de). 
 - [My first Meclib question](https://github.com/mkraska/meclib/wiki/My-first-Meclib-question) Tutorial for a simple question with interactive input (center of gravity of a triangle). This workshop takes approximately 1.5 hrs if the basics of STACK questions are known.
   ![image](https://github.com/user-attachments/assets/09ab2652-3df3-4a32-bb38-ef7c5c1f42b8)
 
@@ -47,7 +48,7 @@ The author of Meclib has developed two introductory workshop formats. They are d
 
 ### Maxima driven JSXGraph graphics
 
-The basic idea behind meclib is that question authors can embed high quality, visually consistent sketches with or without interactive elements into their STACK questions without writing a single line of Javascript. All contents of the graphics is driven by a Maxima list of object description lists inside the question variables. 
+The basic idea behind Meclib is that question authors can embed high quality, visually consistent sketches with or without interactive elements into their STACK questions without writing a single line of Javascript. All contents of the graphics is driven by a Maxima list of object description lists inside the question variables. 
 
 ![image](https://github.com/user-attachments/assets/8d65264d-d739-4e29-a089-b589779f4cc0)
 
@@ -135,23 +136,23 @@ Here, the resultant force doesn’t go through the centroid of the distributed l
 
 ### Feedback functions
 
-Besides the specific feedback functions for free body diagrams, Meclib comes with two feedback functions for algebraic expressions and numerical values with or without units.
+Besides the specific feedback functions for free body diagrams, Meclib comes with two feedback functions for algebraic expressions and numerical values with or without units. These functions provide extended standard feedback which otherwise would require extensive feedback trees with multiple nodes. 
 
 The function `fb_vars()` usually is placed in the feedback for FALSE in an algebraic equivalence answer test. The basic function of this test is to indicate spurious and missing variables and provide hints on how to write the missing variable. 
 Using this function throughout all questions with algebraic input has eliminated nearly all issues with misspelling of variables.
 
-The function `fb_unit()` is used in the feedback for FALSE in numeric answer tests with or without units. It complains about unexpected base units and gives hints on how far off the numeric value of the answer is. So the students get a clue whether they just didn't calculate with sufficent precision, did perhaps a wrong unit coversion or possibly have used a wrong formula.
+The function `fb_unit()` is used in the feedback for FALSE in numeric answer tests with or without units. It complains about unexpected base units and gives hints on how far off the numeric value of the answer is. So the students get a clue whether they just didn't calculate with sufficent precision, did perhaps a wrong unit coversion or possibly have used a wrong formula. 
 
 These feedback functions can be tested on the [Meclib Moodle Course](https://extmoodle.th-brandenburg.de/course/view.php?id=138)
 
 For each of the two functions, there is an interactive tryout test, where you can specify student's and teacher's response along with  possible options and see the feedback that would be generated for this function call.
 
-Also there are test suits, showing the feedback generated for pre-defined test cases.
+Also there are test suits, showing the feedback generated for pre-defined test cases. Note that the functions are language-sensitive (currently, German and English are implemented) and obey the decimal separator setting in the question option. 
 
 
-### Localization
+### 
 
-Meclib is fit for multilingual feedback and configurable decimal separator. Multilingual feedback uses the STACK language block `[[lang ]]`. 
+Starting in 2020, the Meclib concept has been presented at JSXGraph and STACK user meetings. 
 
 
 ## Reference
