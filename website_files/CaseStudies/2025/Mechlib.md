@@ -164,12 +164,11 @@ The Meclib concept has been successfully ported to STACK under Onyx (Saxony's le
 
 Meclib will be part of the efforts to extend the application of STACK to subjects beyond mathematics. An important activity is the project "Deutsches Zentrum für digitale Aufgaben" (German center for digital exercises) coorcdinated by the OTH Amberg-Weiden (University of Applied Sciences).
 
-The interactive editor for free body diagrams is in the concept demonstration stage with first sets of questions in practical use. 
+The ToDo-list of further developments mainly contains extended feedback functions for free body diagrams. This includes trussworks and multi-body systems with emphasis on actio=reactio as well as handling of friction and rolling contacts.
 
+Another action item is the extension of the internationalization approach from currently just two basic feedback functions to the entire library.
 
-
-
-
+Based on user requests, the object library can be extended by symbols beyond mechanics, e.g. electronic circuitry.
 
 ## Reference
 
