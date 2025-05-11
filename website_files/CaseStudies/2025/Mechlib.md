@@ -152,15 +152,21 @@ Also there are test suits, showing the feedback generated for pre-defined test c
 
 ### Current State and future plans
 
-Starting in 2020, the Meclib concept has been presented at JSXGraph and STACK user meetings. In 2023 and 2024 introductory workshops have been given at the user meetings. Meanwhile it is used throughout the courses of Engineering Mechanics at Brandenburg University of Applied Sciences in more than 200 STACK questions.
+Starting in 2020, the Meclib concept has been presented at JSXGraph and STACK user meetings. In 2023 and 2024 introductory workshops have been given at the user meetings. Meanwhile it is used throughout the courses of Engineering Mechanics at Brandenburg University of Applied Sciences in more than 200 STACK questions and has survived several updates of Moodle, STACK and JSXGraph. Such updates usually require some adjustments of the Meclib code. Once these are made, the questions just need to be recompiled to let them take effect. 
+
+Question level adjustments may be required, when new features are implemented like multilingual feedback or adjustable decimal separator.
 
 In 2024, an advanced Meclib workshop has been given at the Hochschule Ruhr West (University of Applied Sciences) in Mühlheim/Ruhr (contact: Jonas Lache).
 
 At Hochschule Bochum (University of Applied Sciences), numerous STACK questions with static randomized Meclib images have been created for various courses  of Engineering Mechanic (contact: Mirko Siegert, Ulrich Zwiers).
 
-The Meclib concept has been successfully ported to STACK under Onyx (Saxony's learning management system). [Demo site](https://bildungsportal.sachsen.de/onyx/test?)
+The Meclib concept has been successfully ported to STACK under Onyx (Saxony's learning management system) by Marcus Seidel at Fachhochschule Zwickau (Unitversity of Applied Sciences). [Demo site](https://bildungsportal.sachsen.de/onyx/test?)
 
 Meclib will be part of the efforts to extend the application of STACK to subjects beyond mathematics. An important activity is the project "Deutsches Zentrum für digitale Aufgaben" (German center for digital exercises) coorcdinated by the OTH Amberg-Weiden (University of Applied Sciences).
+
+The interactive editor for free body diagrams is in the concept demonstration stage with first sets of questions in practical use. 
+
+
 
 
 
