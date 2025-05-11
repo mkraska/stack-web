@@ -170,6 +170,8 @@ Another action item is the extension of the internationalization approach from c
 
 Based on user requests, the object library can be extended by symbols beyond mechanics, e.g. electronic circuitry.
 
+Whenever implementing a feature in a STACK question requires more than a couple of thoughts and is to be used in more than a single question, then it is a candidate for inclusion in Meclib. 
+
 ## Reference
 
 Kraska, Martin, & Schulz, Dennis. (2021). Automatic assessment of free body diagrams using STACK. Presented at the International Meeting of the STACK Community 2021, Zenodo. http://doi.org/10.5281/zenodo.4916138
